@@ -18,14 +18,14 @@ const skills = [
 
 const Skills = () => {
   return (
-    <section id="skills" className="py-12 bg-gray-100">
+    <section id="skills" className="py-12 bg-gray-100 ">
       <div className="container mx-auto text-center">
         <h2 className="text-3xl font-bold">Skills</h2>
-        <div className="mt-8 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6">
+        <div className="mt-8 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6 m-32">
           {skills.map((skill, index) => (
             <div
               key={index}
-              className="flex flex-col items-center space-y-2 bg-white p-4 rounded-lg shadow hover:shadow-lg transform hover:scale-105 transition"
+              className="flex flex-col items-center space-y-2 bg- p-4 rounded-lg shadow hover:shadow-lg transform hover:scale-105 transition hover:bg-lime-400"
             >
               {skill.icon}
               <p className="text-gray-700 font-medium">{skill.name}</p>
